@@ -1,0 +1,58 @@
+<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_16_63)">
+<path d="M10.5 0H3.5C1.567 0 0 1.567 0 3.5V10.5C0 12.433 1.567 14 3.5 14H10.5C12.433 14 14 12.433 14 10.5V3.5C14 1.567 12.433 0 10.5 0Z" fill="url(#paint0_linear_16_63)"/>
+<path d="M14 8.74669V10.5001C14 10.9597 13.9095 11.4148 13.7336 11.8395C13.5577 12.2641 13.2999 12.65 12.9749 12.975C12.6499 13.3 12.264 13.5578 11.8394 13.7337C11.4147 13.9096 10.9596 14.0001 10.5 14.0001H8.93504L4.57544 9.64045C4.78004 9.83919 5.0096 10.0105 5.25836 10.1501C5.80016 10.4564 6.41439 10.6095 7.10104 10.6095C7.94216 10.6095 8.66232 10.3891 9.26152 9.94817C9.86072 9.50726 10.2612 8.90312 10.463 8.13573H8.56488C8.42348 8.43225 8.22328 8.65774 7.96428 8.81221C7.705 8.96733 7.41044 9.0448 7.0806 9.04461C6.54888 9.04461 6.11815 8.85953 5.7884 8.48937C5.45865 8.11921 5.29373 7.62445 5.29364 7.00509C5.29364 6.38601 5.45856 5.89134 5.7884 5.52109C6.11824 5.15084 6.54897 4.96566 7.0806 4.96557C7.39091 4.96043 7.69664 5.04084 7.96428 5.19797C8.22328 5.3529 8.42348 5.5784 8.56488 5.87445H10.463C10.3115 5.29877 10.0483 4.81409 9.6734 4.42041L14 8.74669Z" fill="url(#paint1_linear_16_63)"/>
+<path d="M3.99144 5.1322C4.28434 4.5938 4.72361 4.14927 5.25849 3.84999C5.8002 3.54386 6.41439 3.39074 7.10106 3.39062C7.94231 3.39062 8.6625 3.61276 9.26163 4.05702C9.86075 4.50129 10.2612 5.10703 10.4631 5.87423H8.56501C8.42365 5.57813 8.2234 5.35265 7.96427 5.19777C7.6967 5.04075 7.39107 4.96041 7.08087 4.96557C6.54908 4.96557 6.11831 5.15067 5.78856 5.52086C5.45881 5.89106 5.2939 6.38573 5.29383 7.00486C5.29383 7.62422 5.45874 8.11894 5.78856 8.489C6.11838 8.85907 6.54915 9.04417 7.08087 9.0443C7.41058 9.0443 7.70505 8.9669 7.96427 8.8121C8.2235 8.65729 8.42374 8.43181 8.56501 8.13564H10.4631C10.2611 8.90296 9.86066 9.50705 9.26163 9.94792C8.66259 10.3888 7.94241 10.6092 7.10106 10.6092C6.4145 10.6092 5.80031 10.4561 5.25849 10.1498C4.72456 9.85158 4.28543 9.40895 3.99144 8.87266C3.68855 8.32746 3.53711 7.70486 3.53711 7.00486C3.53711 6.30486 3.68855 5.68064 3.99144 5.1322Z" fill="white"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_16_63" x1="1.02514" y1="1.02514" x2="12.9749" y2="12.9749" gradientUnits="userSpaceOnUse">
+<stop stop-color="#57CDFF"/>
+<stop offset="1" stop-color="#0096D6"/>
+</linearGradient>
+<linearGradient id="paint1_linear_16_63" x1="5.69967" y1="5.60554" x2="13.022" y2="12.9279" gradientUnits="userSpaceOnUse">
+<stop stop-opacity="0.25"/>
+<stop offset="1" stop-opacity="0"/>
+</linearGradient>
+<clipPath id="clip0_16_63">
+<rect width="14" height="14" fill="white"/>
+</clipPath>
+</defs>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</svg>
